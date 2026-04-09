@@ -1,6 +1,10 @@
 .env
+*.env
+!.env.example
+
 backups/*
 !backups/.gitkeep
+
 *.log
 .DS_Store
-config/wikijs.env
+config/*.env
