@@ -1,0 +1,3 @@
+docs.acadialogic.io {
+    reverse_proxy localhost:3000
+}
