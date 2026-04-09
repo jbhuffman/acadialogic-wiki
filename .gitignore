@@ -3,3 +3,4 @@ backups/*
 !backups/.gitkeep
 *.log
 .DS_Store
+config/wikijs.env
