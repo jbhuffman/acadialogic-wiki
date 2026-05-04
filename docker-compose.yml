@@ -22,7 +22,6 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - /srv/appdata/wikijs-db:/var/lib/postgresql/data
-      //- ./data/postgres:/var/lib/postgresql/data
     networks:
       - wikinet
 
