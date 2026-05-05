@@ -9,7 +9,7 @@ services:
       - ./config/wikijs.env
     volumes:
       - /srv/appdata/wikijs-data:/wiki/data
-      - ../../secrets/wikijs-git/id_ed25519:/wiki/keys/id_ed25519:ro
+      - ../../secrets/wikijs-git/id_ed25519:/wiki/data/keys/id_ed25519:ro
     networks:
       - wikinet
       - acadia_internal
