@@ -9,3 +9,9 @@ backups/*
 .DS_Store
 config/*.env
 data/postgres/*
+
+# Local secrets
+secrets/
+*.pem
+id_rsa
+id_ed25519

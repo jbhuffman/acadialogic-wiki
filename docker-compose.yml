@@ -9,6 +9,9 @@ services:
       - ./config/wikijs.env
     ports:
       - "3000:3000"
+    volumes:
+      - /srv/appdata/wikijs-data:/wiki/data
+      - ../../secrets/wikijs-git/id_ed25519:/wiki/keys/id_ed25519:ro
     networks:
       - wikinet
 
